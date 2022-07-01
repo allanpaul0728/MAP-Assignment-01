@@ -18,12 +18,55 @@
     <!-- Marker Cluster CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Style CSS Link -->
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- Main divMap -->
+    <div class="container-fluid">
+
+    <div id="map">
+    <!-- SideBar Bootstrap -->
+    <div id="sidenavbar">
+        <header>
+            <div class="explore">
+                <span class="img">
+                    <img src="logo.png" alt="logo.png">
+                </span>
+
+            </div>
+        </header>
+        </div>
+        
+    
+    
+    <!-- End of Sidebar Bootstrap -->
+
+    <!-- searchbutton foursquare -->
+    <div id="search-container">
+        <input type="text" id="txtQuery" />
+        <button id="btnSearch" class="btn btn-primary btn-sm">Search</button>
+        <div id="search-results">
+
+
+        </div>
+        
+    </div>
+
+    <button id="toggleSearchBtn">Show search</button>
+
     <div id="map"></div>
+    <!-- end of searchbutton foursquare -->
+
+    </div>
+
+    </div>
+    
+
+    
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
@@ -35,15 +78,18 @@
     <!-- Geocoding JS -->
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <!-- MapQuest JS -->
-    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <!-- <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script> -->
     <!-- Axios CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js" integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Marker Cluster JS -->
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
     <!-- foursquare JS -->
     <script src="foursquare.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Map JS -->
     <script src="map.js"></script>
+    <script src="view.js"></script>
     <!-- Main JS -->
     <script src="script.js"></script>
 </body>

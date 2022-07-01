@@ -1,51 +1,67 @@
 function main() {
-
-
+    
+    // the init funciton is only accessible in the main function
     function init() {
         let map = initMap();
 
-        
+        // search result layer
+        let searchResultLayer = L.markerClusterGroup();
+        searchResultLayer.addTo(map);
+
+        // DOMContentLoaded is fired when the HTML file is fully
+        // loaded
+        window.addEventListener("DOMContentLoaded", function(){
+            
+            document.querySelector("#btnSearch").addEventListener('click', async function(){
+
+                // clear any existing search markers
+                searchResultLayer.clearLayers();
+
+                let query = document.querySelector("#txtQuery").value;
+                let center = map.getBounds().getCenter();
+                let data = await search(center.lat, center.lng, query);
+
+                // remove all search results
+                document.querySelector("#search-results").innerHTML = "";
+
+                for (let result of data.results) {
+                    addSearchResult(map, result, searchResultLayer);
+                    // let latlng = [result.geocodes.main.latitude, result.geocodes.main.longitude];
+                    // let resultMarker = L.marker(latlng);
+                    // resultMarker.bindPopup(`
+                    //     <h3>${result.name}</h1>
+                    //     <p>${result.location.formatted_address}</p>
+                    // `)
+                    // resultMarker.addTo(searchResultLayer);
+
+                    // // create a search result element
+                    // let resultElement = document.createElement('div');
+                    // resultElement.className = 'search-result';
+                    // resultElement.innerHTML = result.name;
+                    // resultElement.addEventListener('click', function(){
+                    //     map.flyTo(latlng , 16);
+                    //     resultMarker.openPopup();
+                    // })
+
+                    // document.querySelector("#search-results").appendChild(resultElement);
+                }
+            })
+
+            document.querySelector("#toggleSearchBtn").addEventListener('click', function(){
+                let searchContainerElement =  document.querySelector("#search-container");
+                let currentDisplay = searchContainerElement.style.display;
+                if (! currentDisplay  || currentDisplay == 'none') {
+                    // if the search container is hidden, show it
+                    searchContainerElement.style.display = 'block';
+                } else {
+                    // if the searc container is visible, then hide it
+                    searchContainerElement.style.display = 'none';
+                }
+            })
 
 
+        })
     }
-
-    // var map = L.map('map').setView([0, 0], 2);
-    // L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    //   attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-    // }).addTo(map);
-    // L.Control.geocoder().addTo(map);
-
-    // var geocoder = L.Control.geocoder({
-    //     defaultMarkGeocode: false
-    //   })
-    //     .on('markgeocode', function(e) {
-    //       var bbox = e.geocode.bbox;
-    //       var poly = L.polygon([
-    //         bbox.getSouthEast(),
-    //         bbox.getNorthEast(),
-    //         bbox.getNorthWest(),
-    //         bbox.getSouthWest()
-    //       ]).addTo(map);
-    //       map.fitBounds(poly.getBounds());
-    //     })
-    //     .addTo(map);
-
-    //     L.Routing.control({
-    //         waypoints: [
-    //             L.latLng(57.74, 11.94),
-    //             L.latLng(57.6792, 11.949)
-    //         ],
-    //         routeWhileDragging: true,
-    //         geocoder: L.Control.Geocoder.nominatim()
-    //     }).addTo(map);
-    L.mapquest.key = 'KEY';
-
-// 'map' refers to a <div> element with the ID map
-L.mapquest.map('map', {
-  center: [37.7749, -122.4194],
-  layers: L.mapquest.tileLayer('map'),
-  zoom: 12
-});
 
     init();
 }
