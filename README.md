@@ -7,16 +7,14 @@
 
 ### Context
 
-Davao Life-Is-Here is a website which allows users to conveniently explore the tourism of Davao.
+Davao Life-Is-Here is a mobile or web application which will help the users to locate the tourist spots of the city such as beaches, highlands, hiking sites and mountain. This website will showcase of what the City has to offer - the pride of Davao - known for nice beaches and picturesque view highlands.
 
-### Target Audience
+### Target Audience & Characteristics
 
-1. Both foreign and local from different places to be interested in exploring the tourist attraction of the City.
-2. People who wants to experience adventure in hiking, trialing, etc.
-3. People
-
-### Characteristics
-
+1. Both foreign and local traveller from different places interested in exploring the tourist attractions of the City.
+2. People who likes to distress, unwind, which will help their mental health at ease.
+3. People who are open for adventure, into nature and physical activities such as hiking, climbing, etc.
+4. Anyone who is enthusiastic in discovering new places and embracing the city's culture.
 
 
 ### User/Organization's Goals
