@@ -31,21 +31,30 @@ Click [here](https://allanpaul0728.github.io/MAP-Assignment-01/) to proceed for 
 
 ## UI/UX
 
-
 ### User Stories & Acceptance Criteria
 
-### Wireframes
+User Stories | Acceptance Criteria
+------------ | ------------
+As a local traveller who is living from another city of the same country and wants to explore beach resorts in Davao, given that I am a first-time visitor in an unfamiliar place such as Davao. | Location services aims to identify the recommended beach resorts in the City.
+As a foreign tourist who likes to engage in some crazy adventure in southern part of Mindanao such as Davao. | The application will suggests and show particular locations for hiking area, highlands and davao mountains with helpful information about the place. 
 
 ### 5 Planes of UI/UX
 
+#### Strategy
+
+* For users who want a hassle-free travel and easy access for locating destinations.
+* Pain points: With a City like Davao that is not quite famous as the other cities where their tourist spots has been endorsed and known for years, users must be provided such application that will guide them navigating/locating the tourist attractions of Davao City
 
 ## Features
 
 ## User Stories
 
 ### Role of the user
+
 ### Statement of what the user wisher to
+
 ### Statement the intent of the user
+
 ### Explain what features can meet the user story
 
 
