@@ -40,7 +40,7 @@ As a foreign tourist who likes to engage in some crazy adventure in southern par
 
 ### Wireframe
 
-Click [here](link) to check the PC/Laptop and Mobile draft design of the application.
+Click [here](wireframes/DVO-MAP-WIREFRAME.pdf) to check the PC/Laptop and Mobile draft design of the application.
 
 ### 5 Planes of UI/UX
 
