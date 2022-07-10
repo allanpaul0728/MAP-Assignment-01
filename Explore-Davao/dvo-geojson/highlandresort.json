@@ -1,0 +1,107 @@
+[
+    {
+        "name":"Eden Nature Park",
+        "coordinates": [7.0292, 125.3993],
+        "location":"Bayabas, Toril, Davao City",
+        "description":"Become acquainted with nature and indulge in an authentic mountain experience - marked by cool crisp mountain air while enjoying the spectacular views of pine trees which  exquisitely blend well with its background.",
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t1.6435-9/83212470_1447570052083952_2855304441748258816_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEch0hHqHQqVYmr-RzygAjU4tqx2MMQomDi2rHYwxCiYE1s1POrQScuwPWiXTvBqR3LYc2awUqYEKx25JvCpPqw&_nc_ohc=qPebAf_7KcgAX-aJ97j&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT-jn8HcBcwVTW-GiY3dBNgblkdD8f8JrtR6806hY3MIfg&oe=62E85177"
+    },
+    {
+        "name":"Davao Eagle Ridge",
+        "coordinates": [7.0555, 125.53897],
+        "location":"Talomo, Davao City, Davao del Sur",
+        "description":"Davao Eagle Ridge is within the vicinity of SM City Davao and NCCC Mall of Davao. Rooms Make yourself at home in one of the 13 air-conditioned guestrooms. Cable television is provided for your entertainment. Rec, Spa, Premium Amenities Pamper yourself with a visit to the spa, which offers facials. If you're looking for recreational opportunities, you'll find an outdoor pool and a spa tub.",
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t1.18169-9/1384248_246148818868381_368009360_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeEw_WUrXQRXVMknS8BWFBtRWBWqPYbRHxxYFao9htEfHOGkAF8QGi_WLxroOQSqo5QTDs4KDzx9jxyUi-6JO4cA&_nc_ohc=QsnDUcnhhBgAX82k7ei&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT_OUmSrTe8mMXOLQXiPD35V5x36g7l4WiWtgbOOEaii-g&oe=62ED9E64"
+    },
+    {
+        "name":"Jack's Ridge",
+        "coordinates": [7.0664, 125.5824],
+        "location":"Shrine Hills Road, Davao City",
+        "description":"The land on which Jack's Ridge now stand once formed part of the headquarter of the retreating Japanese forces towards the end of the World War II. The Americans had landed in Davao on May 1, 1945, forcing the Japanese to beat a path to Matina Hills where they had a commanding view of the Davao Gulf where the American ships were anchored. Fierce fighting soon erupted between the two forces, and as history shown us, the Japanese lost.",
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/248999764_1938285019669261_667595104058367883_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFAQAblQTBkbt-vp3Y8pqHdHSBbwH4egZgdIFvAfh6BmKCUF825lZgUYiOD_M0KYkQJ94i8m70LzJFJHVa5RFAA&_nc_ohc=usL4OZyoimQAX-Y8Ray&tn=VxEaioHae5Jc2zbz&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT_43OKY4oxgh2KlKY0yWmTji4Xc00DBEhtnadGESTdmiw&oe=62CB7F1E"
+    },
+    {
+        "name":"Misty Heights",
+        "coordinates": [7.4782, 125.2782],
+        "location":"Marilog District, Davao City, Davao del Sur",
+        "description":"Misty Heights in Marilog District, Davao City offers you a one-of-a-kind experience of what is glamping and how it should be enjoyed. Glamping is a portmanteau of glamourous and camping, hence the word glamping. This camping site in the highlands of Davao City treats you with glamourous camping facilities in an area blessed with panoramic, unobstructed view of the region's crisp beauty of the mountains.",
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/289892252_565052832011462_4534723422640331279_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGpSKzQxIVsChHkyrkDRc-FNLg_BFpX1kg0uD8EWlfWSCNvrqL38BAaCEwC-qHMQupQlHB2ZlTZPvAdPc5bFyt9&_nc_ohc=HhIdJLxyf8YAX9alPJk&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT-smHk0XRDgh9Ct7RizM8D3_SQGjJML4EKpp9PyjJJR4A&oe=62CCA528"
+    },
+    {
+        "name":"Yura Highland",
+        "coordinates": [7.4776, 125.2938],
+        "location":"Marilog District, Davao City, Davao del Sur",
+        "description":"Yura Highland is a modern minimalist villa right in the Middle of Davao’s mountain ranges. It feels like a place not from the Philippines when you look at its pictures as this solid block structure is aesthetically pleasing, with no near neighbors right in the middle of a picturesque view.",
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/291858373_567734628177465_4866884200424215385_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHnP5Epb2HwdM8ljl2Vnw_rTxN7WNm3BdpPE3tY2bcF2qzKq79Xr5aWAaSSxpbLwV9Hpzens_deZYulPWWa-0UP&_nc_ohc=98euhm6LaqEAX994rRu&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT8alg32T9-xpbTC4GoDsWoQE7cQp-r6wSnpX0oQa5CudQ&oe=62CC223B"
+    },
+    {
+        "name":"Seagull Mountain Resort",
+        "coordinates": [7.4901, 125.2470],
+        "location":"Bukidnon Road, Marilog District, Davao City, Davao del Sur",
+        "description":"Seagull Mountain Resort is one of the top choices for inland adventure. Located in Brgy. Buda, Marilog District, it only takes about an hour or two to reach this attraction. It is a perfect destination for families and friends wanting a nature escape from the hustle and bustle of the city. It is also ideal for those who are planning to go outdoor for a special gathering. Or for anyone who just wants to experience the beauty of nature – like those who want a solemn retreat.",
+        "photourl":"https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.18169-9/27973347_10154567871027185_4122572239747083175_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEz7Jvd6ZV7vopYNFN0FqfQ4vhn_3wH_gji-Gf_fAf-CE9udU8vuxKJv6XLIEqmwG_q3fnOgAJhPVa3fgDvo8Jm&_nc_ohc=l8oSKqSAPgcAX98ewGE&_nc_ht=scontent.fcgy2-2.fna&oh=00_AT8ln6J_mGpeyazZEtKbGfXGv-OLUb-xI4DYT3nd4ihZ4A&oe=62ECED9D"
+    },
+    {
+        "name":"Buda Vista",
+        "coordinates": [7.50503, 125.24971],
+        "location":"Katipunan Arakan, Buda Highway Road, Davao",
+        "description":"An offshoot of the Buda Vista Vacation House which offers a larger venue and accommodates larger groups of 16-40 persons. It has a cafe and waterfalls.",
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/259773897_1585149488506936_7946973950229271974_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGzeaMuhj0yHOvLe2xCzv103HhSdJSBbUvceFJ0lIFtSw9P_boeUsPANDvflU9yBhaU7IoHIdysp4OhcTJ39kQv&_nc_ohc=cuwBNEr4g6YAX8zX6M6&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT8qDwIE_fuy6masS4LuiQiRIubuBfM0hZeK3GtWX0Ieiw&oe=62CC2BF4"
+    },
+    {
+        "name":"Highway 81",
+        "coordinates": [7.4869, 125.2490],
+        "location":"Marilog District, Davao City",
+        "description":"The rental vacation home is exactly 81 kilometers from Davao city proper in the mountains of Marilog District. The property has both a cottage and a home rental with a restaurant that accommodates both daytime and overnight guests.",
+        "photourl":"https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/183410835_2914050228884725_5884310730537551403_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHRr2gnzuH8kRWgtpRAku9ZDyko8ywyKeQPKSjzLDIp5IzenDh1nXXXHyeSdlzreYN_DcAtwGf2uC3wTwYqthRF&_nc_ohc=hBGhmZWOXLEAX_xC_FI&_nc_ht=scontent.fcgy2-2.fna&oh=00_AT_Erqc_nutKO6BCf8jJ8BlwrprZfjRQqnqUX7K6uv0KkQ&oe=62EBE82D"
+    },
+    {
+        "name":"Tagurano Highlands",
+        "coordinates": [7.0490, 125.4037],
+        "location":"Toril, Davao City, Davao del Sur",
+        "description":null,
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/285536732_511569720755139_6512797949100901118_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeE_lHzxqDm5VvQrVwp-g6p8ZtchVAcP1Ehm1yFUBw_USBz-aAZxetjJbhgIulX8wUMuYJfv-WgzUFc4sFhYIPEK&_nc_ohc=cjygUrb3uPIAX9t2vNx&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT9P3TeKSaGtgAzBVYUZ-zBUWHH1UcMb6Gb-_LkEsKfOXQ&oe=62CDB2A4"
+    },
+    {
+        "name":"Jive Highland Resort",
+        "coordinates": [7.47805, 125.2696],
+        "location":"Datu Salumay, Marilog District, Davao City, Davao del Sur",
+        "description":null,
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/275778728_2207823769382740_3091439539510863204_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHZpbZp3cXUzPIdlXenSq0ZgQWeajU05RKBBZ5qNTTlEnWGZXNmAiSSCqMRkulMdnzE2othHZmPwEbwSdSFEFN8&_nc_ohc=ZeatZeBLRGoAX_JVZFr&tn=VxEaioHae5Jc2zbz&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT8E8Gymh-_0C8BFH4lYG2u3BoboonYlLV0aZz43RQWySQ&oe=62CDDBBC"
+    },
+    {
+        "name":"Hills View",
+        "coordinates": [7.4790, 125.2928],
+        "location":"Bukidnon Highway, Marilog District, Davao City, Davao del Sur",
+        "description":"Hills View Mountain Villa showcases nature's grandness to the fullest with its breathtaking overlooking view of the clouds. Once the thick chunks of clouds disappear during the latter parts of the day, an equally splendid view of the green hills and mountains pampers the sight of every spectator. These, plus a chilly weather that's perfect for a soulful unwinding experience.",
+        "photourl":"https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/289756221_5327698627344747_5418954535070244882_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEMGPLYYmnvbfzMtV_3Nr13diS7vag_7ex2JLu9qD_t7NyccaLIme3Y0phbJV9dkG23XAdeKGkMFKsZ1t5frHlV&_nc_ohc=oZiNqGXmqRkAX9AowQX&_nc_ht=scontent.fcgy2-2.fna&oh=00_AT-V9fUdHMkdHZXi0TgV321w5g4lCbJxqgRSe7mZNeSfsA&oe=62CC3288"
+    },
+    {
+        "name":"Hilltop View Deck",
+        "coordinates": [7.0899, 125.5692],
+        "location":"Diversion Road, Maa, Davao City",
+        "description":"Davao City Hilltop sits on a high, steep slope, hilly part of the Barangay Langub, Diversion Road, Ma-a, Davao City overlooking the beautiful scenic expanse of Metro Davao. The place is frequented by locals and a popular destination of domestic and foreign tourists.",
+        "photourl":"https://3.bp.blogspot.com/-snyW21iVksM/TjY4EooOlHI/AAAAAAAAB1Q/e11PRvRd09M/s1600/hillt.jpg"
+    },
+    {
+        "name":"Gap Farming Resort",
+        "coordinates": [7.0960, 125.5723],
+        "location":"Diversion Road, Davao City",
+        "description":"Gap Orchard Resort, a sprawling 10 - hectare farm orchard, dedicated to durian, rambutan, pomelo and other tropical fruits. Located approximately five kilometers away from the bustling heart of the city, it is set amidst verdant tropical greenery and Philippine flora. It showcases an outdoor museum of Philippine folklore, history and culture awaiting your discovery. Capture this rustic atmosphere and enjoy the serenity and tranquility in this mountain paradise.",
+        "photourl":"https://scontent.fcgy2-1.fna.fbcdn.net/v/t1.18169-9/10388656_884154068268477_7877296221818206268_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeGFokakCwqlUA1yd4U7S45tj8NT4Rppw-CPw1PhGmnD4Cwjm0j8nkWsnQrsEy4ydEanysIKC2fV6Elat10N_Aww&_nc_ohc=UAiPrcF_-3gAX9MoIEX&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT9k1Nsj8QVta38uNyiUUVXLXBwhfadvEgwo2aKOAYQZMg&oe=62EF46B2"
+    },
+    {
+        "name":"Loleng's Mountain Resort",
+        "coordinates": [7.01967, 125.41726],
+        "location":"Toril, Davao City, Davao del Sur",
+        "description":"Loleng's mountain resort, though man-made, offers its visitors a close commune with trees, wonderful sceneries and all the simple yet great things that the world has to offer. If you want to relax and have fun at the same time, this place is the ideal location to visit.",
+        "photourl":"https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.18169-9/39442_130861920299966_2826799_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeGeCaspIsyG66kRDgPa18CKWsi6j1goYB5ayLqPWChgHsaxJABGh5zAOovx-N3JNK7Fd89JidjLhbsR3XTEraCR&_nc_ohc=8-4S5H6LsGsAX8YGI-y&_nc_ht=scontent.fcgy2-2.fna&oh=00_AT-J8MxigRDW46JGeWadDqCvdxBtxmBTftj079BauPeHFw&oe=62ECC50C"
+    },
+    {
+        "name":"Kamp Kalinaw",
+        "coordinates": [6.9757, 125.4156],
+        "location":"Baracatan, Toril, Davao City, Davao del Sur",
+        "description":"A mountain resort to calm your mind and rejuvenate your restless spirit.",
+        "photourl":"https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/279384388_162269722907780_3938932519416262065_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF4lsLFA0l2-qhqDQ8UFONzwoo-c8nFul3Cij5zycW6XRxWemuYCFhaLlGI1ndvTl9csSObCMDHut2gEJPud-bR&_nc_ohc=unHIpZdXEa8AX-p0O-s&_nc_ht=scontent.fcgy2-2.fna&oh=00_AT_JkshYHcbe5IS0ezbfsxGlQvxZj3WoF7T4DbBCzxPtPA&oe=62CDEE84"
+    }
+]

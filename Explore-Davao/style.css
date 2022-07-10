@@ -1,0 +1,54 @@
+/* SPA CSS Styling */
+.page {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    /* transition: transform 1s; */
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.hidden { 
+    transform: translateX(-120%);
+    transition: transform 1s;
+}
+
+.show {
+    transform: translateX(0);
+    transition: transform 1s;
+}
+/* End of SPA CSS */
+
+/* Welcome Page */
+#homepage {
+    background-color: lightsalmon;
+    height:100vh;
+}
+
+#welcomepage {
+    padding-left:45%;
+    padding-top:20%;
+}
+
+/* Search Bar */
+#search-results {
+    overflow-y: scroll;
+    max-height: 500px;
+    margin-top: 10px;
+    background-color: lightgrey;
+}
+
+.caption {
+    padding-left:25%;
+    margin-top:2%;
+}
+
+.dropdown {
+    width:200px;
+    margin-left:43%;
+    margin-top:2%;
+    background-color:lightgrey!;
+}

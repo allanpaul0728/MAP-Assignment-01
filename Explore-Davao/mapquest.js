@@ -30,4 +30,15 @@
 
 // }
 
+// L.mapquest.key = 'm6L5rOM54KaJAzA7uvPgA2oAy1tpmHZx';
 
+// var map = L.mapquest.map('map', {
+//   center: [7.1907, 125.4553],
+//   layers: L.mapquest.tileLayer('map'),
+//   zoom: 12
+// });
+
+// map.addControl(L.mapquest.control());
+// map.addControl(L.mapquest.geocodingControl({
+//   position: 'topleft'
+// }));
