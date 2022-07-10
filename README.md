@@ -1,6 +1,6 @@
 # MAP-Assignment-01
 
-<img src='images/dvoseal.png'/><br>
+<img src='images/DVO.png'/><br>
 
 The live demo can be found [here](link here)
 
