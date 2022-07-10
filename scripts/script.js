@@ -8,7 +8,7 @@ document.querySelector('#welcomepage').addEventListener('click', function(){
 
     }
 
-    let page1 = document.querySelector('#map');
+    let page1 = document.querySelector('#mapsection');
     page1.classList.add('show');
     page1.classList.remove('hidden');
 })
@@ -21,7 +21,7 @@ document.querySelector('#mountain-icon').addEventListener('click', function() {
     
         }
     
-        let page2 = document.querySelector('#map');
+        let page2 = document.querySelector('#mapsection');
         page2.classList.add('show');
         page2.classList.remove('hidden');
 
@@ -35,7 +35,7 @@ document.querySelector('#beach-icon').addEventListener('click', function() {
     
         }
     
-        let page2 = document.querySelector('#map');
+        let page2 = document.querySelector('#mapsection');
         page2.classList.add('show');
         page2.classList.remove('hidden');
 
@@ -49,7 +49,7 @@ document.querySelector('#highland-icon').addEventListener('click', function() {
     
         }
     
-        let page2 = document.querySelector('#map');
+        let page2 = document.querySelector('#mapsection');
         page2.classList.add('show');
         page2.classList.remove('hidden');
 
@@ -63,7 +63,7 @@ document.querySelector('#hiking-icon').addEventListener('click', function() {
     
         }
     
-        let page2 = document.querySelector('#map');
+        let page2 = document.querySelector('#mapsection');
         page2.classList.add('show');
         page2.classList.remove('hidden');
 

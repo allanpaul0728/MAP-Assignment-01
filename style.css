@@ -1,15 +1,26 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    overflow-x: hidden!important
+}
+
 /* SPA CSS Styling */
 .page {
-    height: 100vh;
     position: absolute;
     width: 100%;
     box-sizing: border-box;
     /* transition: transform 1s; */
 }
 
-.container-fluid {
+#allPages {
     position: relative;
-    
+}
+
+#map {
+    height:100vh;
 }
 
 .hidden { 
@@ -26,13 +37,17 @@
 /* Welcome Page */
 #homepage {
     background-color: lightsalmon;
-    height:100vh;
+    height: 100vh !important;;
+    width:100vw;
+    box-sizing: border-box !important
 }
 
-#welcomepage {
-    padding-left:45%;
-    padding-top:20%;
+#mapsection {
+    position: relative;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
+
 
 /* Search Bar */
 #search-results {
@@ -42,15 +57,9 @@
     background-color: lightgrey;
 }
 
-.caption {
-    padding-left:25%;
-    margin-top:2%;
-}
 
 .dropdown {
     width:200px;
-    margin-left:43%;
-    margin-top:2%;
     background-color:lightgrey!;
 }
 
