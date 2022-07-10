@@ -2,13 +2,13 @@
 
 <img src='images/DVO.png'/><br>
 
-The live demo can be found [here](https://allanpaul0728.github.io/MAP-Assignment-01/)
+
 
 ## Project Summary
 
 ### Context
 
-_Explore Davao_ is a website which allows users to conveniently explore the tourism of Davao.
+DVO Life-Is-Here is a website which allows users to conveniently explore the tourism of Davao.
 
 ### Target Audience
 
@@ -20,6 +20,9 @@ _Explore Davao_ is a website which allows users to conveniently explore the tour
 
 
 ### Justification of Project's Existence
+
+### Live Demo
+Click [here](https://allanpaul0728.github.io/MAP-Assignment-01/) to proceed for live demo.
 
 
 ## UI/UX

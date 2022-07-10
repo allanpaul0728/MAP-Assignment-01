@@ -9,6 +9,7 @@
 
 .container-fluid {
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hidden { 
