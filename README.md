@@ -19,8 +19,11 @@ Davao Life-Is-Here is a mobile or web application which will help the users to l
 
 ### User/Organization's Goals
 
+The objective of this application is to showcase the wonderful and beautiful ambiance of highland's nature, beach places, hiking sites of Davao.
 
 ### Justification of Project's Existence
+
+With increasing number of tourists going in & out in the City of Davao, which is located in the biggest island of Philippines - Mindanao, where finding places to relax and unwind is quite difficult which may cause inconvenience to the travellers. With the use of this app, it will help the users to easily locate the particular spots without any hassle and stress. 
 
 ### Live Demo
 Click [here](https://allanpaul0728.github.io/MAP-Assignment-01/) to proceed for live demo.
