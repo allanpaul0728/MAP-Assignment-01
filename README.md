@@ -2,7 +2,7 @@
 
 <img src='images/DVO.png'/><br>
 
-The live demo can be found [here](link here)
+The live demo can be found [here](https://allanpaul0728.github.io/MAP-Assignment-01/)
 
 ## Project Summary
 
