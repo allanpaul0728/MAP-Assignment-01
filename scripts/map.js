@@ -1,8 +1,8 @@
 function initMap() {
     
-    let centerpoint = [7.051399, 125.59477];
+    let davaoCity = [7.051399, 125.59477];
     let map = L.map("map", {zoomControl: false});
-    map.setView(centerpoint, 10);
+    map.setView(davaoCity, 10);
 
     
     streetMode = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
