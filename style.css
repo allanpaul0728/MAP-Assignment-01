@@ -1,29 +1,30 @@
 body {
     height: 100%;
     width: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box !important;
     overflow-x: hidden !important
 }
 
-/* SPA CSS Styling */
+#homepage {
+    background-color: #07a837 !important;
+    height: 100vh !important;
+    width: auto;
+    box-sizing: border-box !important;
+}
+
 .page {
     position: absolute;
     width: 100%;
     box-sizing: border-box;
-    /* transition: transform 1s; */
 }
 
-#allPages {
+#allpages {
     position: relative;
 }
 
-#map {
-    height:100vh;
-}
-
-.hidden { 
+.hidden {
     transform: translateX(-100%);
     transition: transform 1s;
 }
@@ -32,43 +33,18 @@ body {
     transform: translateX(0);
     transition: transform 1s;
 }
-/* End of SPA CSS */
 
-/* Welcome Page */
-#homepage {
-    background-color: lightsalmon;
-    height: 100vh !important;;
-    width:100vw;
-    box-sizing: border-box !important
+#map {
+    height: 100vh;
 }
 
-#mapsection {
+#secondarypage {
     position: relative;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
 
-
-/* Search Bar */
-#search-results {
-    overflow-y: scroll;
-    max-height: 500px;
-    margin-top: 10px;
-    background-color: lightgrey;
-}
-
-
-.dropdown {
-    width:200px;
-    background-color:lightgrey!;
-}
-
-.nav-item {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-}
-
-#mainpage {
-    position:relative;
+#primarypage {
     height: 100vh;
+    box-sizing: border-box !important
 }

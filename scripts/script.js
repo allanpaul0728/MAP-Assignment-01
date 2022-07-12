@@ -1,6 +1,6 @@
 // SPA function 
 
-document.querySelector('#welcomepage').addEventListener('click', function(){
+document.querySelector('#primarypage').addEventListener('click', function(){
     let allPages = document.querySelectorAll('.page');
     for (let page of allPages) {
     page.classList.add('hidden');
@@ -8,80 +8,80 @@ document.querySelector('#welcomepage').addEventListener('click', function(){
 
     }
 
-    let page1 = document.querySelector('#mapsection');
+    let page1 = document.querySelector('#secondarypage');
     page1.classList.add('show');
     page1.classList.remove('hidden');
 })
 
-document.querySelector('#mountain-icon').addEventListener('click', function() {
-    let containerFluid = document.querySelectorAll('.page')
-    for (let page of containerFluid) {
-        page.classList.add('hidden');
-        page.classList.remove('show');
+// document.querySelector('#mountain-icon').addEventListener('click', function() {
+//     let containerFluid = document.querySelectorAll('.page')
+//     for (let page of containerFluid) {
+//         page.classList.add('hidden');
+//         page.classList.remove('show');
     
-        }
+//         }
     
-        let page2 = document.querySelector('#mapsection');
-        page2.classList.add('show');
-        page2.classList.remove('hidden');
+//         let page2 = document.querySelector('#mapsection');
+//         page2.classList.add('show');
+//         page2.classList.remove('hidden');
 
-})
+// })
 
-document.querySelector('#beach-icon').addEventListener('click', function() {
-    let containerFluid = document.querySelectorAll('.page')
-    for (let page of containerFluid) {
-        page.classList.add('hidden');
-        page.classList.remove('show');
+// document.querySelector('#beach-icon').addEventListener('click', function() {
+//     let containerFluid = document.querySelectorAll('.page')
+//     for (let page of containerFluid) {
+//         page.classList.add('hidden');
+//         page.classList.remove('show');
     
-        }
+//         }
     
-        let page2 = document.querySelector('#mapsection');
-        page2.classList.add('show');
-        page2.classList.remove('hidden');
+//         let page2 = document.querySelector('#mapsection');
+//         page2.classList.add('show');
+//         page2.classList.remove('hidden');
 
-})
+// })
 
-document.querySelector('#highland-icon').addEventListener('click', function() {
-    let containerFluid = document.querySelectorAll('.page')
-    for (let page of containerFluid) {
-        page.classList.add('hidden');
-        page.classList.remove('show');
+// document.querySelector('#highland-icon').addEventListener('click', function() {
+//     let containerFluid = document.querySelectorAll('.page')
+//     for (let page of containerFluid) {
+//         page.classList.add('hidden');
+//         page.classList.remove('show');
     
-        }
+//         }
     
-        let page2 = document.querySelector('#mapsection');
-        page2.classList.add('show');
-        page2.classList.remove('hidden');
+//         let page2 = document.querySelector('#mapsection');
+//         page2.classList.add('show');
+//         page2.classList.remove('hidden');
 
-})
+// })
 
-document.querySelector('#hiking-icon').addEventListener('click', function() {
-    let containerFluid = document.querySelectorAll('.page')
-    for (let page of containerFluid) {
-        page.classList.add('hidden');
-        page.classList.remove('show');
+// document.querySelector('#hiking-icon').addEventListener('click', function() {
+//     let containerFluid = document.querySelectorAll('.page')
+//     for (let page of containerFluid) {
+//         page.classList.add('hidden');
+//         page.classList.remove('show');
     
-        }
+//         }
     
-        let page2 = document.querySelector('#mapsection');
-        page2.classList.add('show');
-        page2.classList.remove('hidden');
+//         let page2 = document.querySelector('#mapsection');
+//         page2.classList.add('show');
+//         page2.classList.remove('hidden');
 
-})
+// })
 
-document.querySelector('#clickHome').addEventListener('click', function() {
-    let containerFluid = document.querySelectorAll('.page')
-    for (let page of containerFluid) {
-        page.classList.add('hidden');
-        page.classList.remove('show');
+// document.querySelector('#clickHome').addEventListener('click', function() {
+//     let containerFluid = document.querySelectorAll('.page')
+//     for (let page of containerFluid) {
+//         page.classList.add('hidden');
+//         page.classList.remove('show');
     
-        }
+//         }
     
-        let page2 = document.querySelector('#homepage');
-        page2.classList.add('show');
-        page2.classList.remove('hidden');
+//         let page2 = document.querySelector('#homepage');
+//         page2.classList.add('show');
+//         page2.classList.remove('hidden');
 
-})
+// })
 
 
 // Main function
@@ -130,79 +130,79 @@ function main() {
 
         })
 
-        document.querySelector("#mountain-icon").addEventListener('click', async function() {
-            searchResultLayer.clearLayers();
-            mountainLayer.clearLayers();
-            davaoBeachesLayer.clearLayers();
-            highlandLayer.clearLayers();
-            hikingLayer.clearLayers();
+        // document.querySelector("#mountain-icon").addEventListener('click', async function() {
+        //     searchResultLayer.clearLayers();
+        //     mountainLayer.clearLayers();
+        //     davaoBeachesLayer.clearLayers();
+        //     highlandLayer.clearLayers();
+        //     hikingLayer.clearLayers();
 
-            let mountain = await axios.get("dvo-geojson/mountain.json");
+        //     let mountain = await axios.get("dvo-geojson/mountain.json");
             
-            for (let item of mountain.data) {
-                console.log(item.coordinates);
-                let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:mountainicon}).addTo(mountainLayer);
-                marker.bindPopup(`<h4>${item.name}</h4>
-                                <img src="${item.photourl}" height="100px" width="200px"/>
-                                <p>${item.location}<p>
-                                                                         `)
-            }
-            mountainLayer.addTo(map);
+        //     for (let item of mountain.data) {
+        //         console.log(item.coordinates);
+        //         let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:mountainicon}).addTo(mountainLayer);
+        //         marker.bindPopup(`<h4>${item.name}</h4>
+        //                         <img src="${item.photourl}" height="100px" width="200px"/>
+        //                         <p>${item.location}<p>
+        //                                                                  `)
+        //     }
+        //     mountainLayer.addTo(map);
 
             
-        })
+        // })
         
         
-        document.querySelector("#beach-icon").addEventListener('click', async function() {
-            searchResultLayer.clearLayers();
-            mountainLayer.clearLayers();
-            davaoBeachesLayer.clearLayers();
-            highlandLayer.clearLayers();
-            hikingLayer.clearLayers();
+        // document.querySelector("#beach-icon").addEventListener('click', async function() {
+        //     searchResultLayer.clearLayers();
+        //     mountainLayer.clearLayers();
+        //     davaoBeachesLayer.clearLayers();
+        //     highlandLayer.clearLayers();
+        //     hikingLayer.clearLayers();
 
-            let davaoBeaches = await axios.get("dvo-geojson/beaches.json");
-            for (let item of davaoBeaches.data) {
-                let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:davaobeachesicon}).addTo(davaoBeachesLayer);
-                marker.bindPopup(`<h4>${item.name}</h4>
-                <img src="${item.photourl}" height="100px" width="200px"/>
-                <p>${item.location}<p>`) 
-            }
-            davaoBeachesLayer.addTo(map);
-        })
+        //     let davaoBeaches = await axios.get("dvo-geojson/beaches.json");
+        //     for (let item of davaoBeaches.data) {
+        //         let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:davaobeachesicon}).addTo(davaoBeachesLayer);
+        //         marker.bindPopup(`<h4>${item.name}</h4>
+        //         <img src="${item.photourl}" height="100px" width="200px"/>
+        //         <p>${item.location}<p>`) 
+        //     }
+        //     davaoBeachesLayer.addTo(map);
+        // })
 
-        document.querySelector("#highland-icon").addEventListener('click', async function() {
-            searchResultLayer.clearLayers();
-            mountainLayer.clearLayers();
-            davaoBeachesLayer.clearLayers();
-            highlandLayer.clearLayers();
-            hikingLayer.clearLayers();
+        // document.querySelector("#highland-icon").addEventListener('click', async function() {
+        //     searchResultLayer.clearLayers();
+        //     mountainLayer.clearLayers();
+        //     davaoBeachesLayer.clearLayers();
+        //     highlandLayer.clearLayers();
+        //     hikingLayer.clearLayers();
 
-            let highland = await axios.get("dvo-geojson/highlandresort.json");
-            for (let item of highland.data) {
-                let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:highlandicon}).addTo(highlandLayer);
-                marker.bindPopup(`<h4>${item.name}</h4>
-                <img src="${item.photourl}" height="100px" width="200px"/>
-                <p>${item.location}<p>`) 
-            }
-            highlandLayer.addTo(map);
-        })
+        //     let highland = await axios.get("dvo-geojson/highlandresort.json");
+        //     for (let item of highland.data) {
+        //         let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:highlandicon}).addTo(highlandLayer);
+        //         marker.bindPopup(`<h4>${item.name}</h4>
+        //         <img src="${item.photourl}" height="100px" width="200px"/>
+        //         <p>${item.location}<p>`) 
+        //     }
+        //     highlandLayer.addTo(map);
+        // })
 
-        document.querySelector("#hiking-icon").addEventListener('click', async function() {
-            searchResultLayer.clearLayers();
-            mountainLayer.clearLayers();
-            davaoBeachesLayer.clearLayers();
-            highlandLayer.clearLayers();
-            hikingLayer.clearLayers();
+        // document.querySelector("#hiking-icon").addEventListener('click', async function() {
+        //     searchResultLayer.clearLayers();
+        //     mountainLayer.clearLayers();
+        //     davaoBeachesLayer.clearLayers();
+        //     highlandLayer.clearLayers();
+        //     hikingLayer.clearLayers();
 
-            let hiking = await axios.get("dvo-geojson/hikingsites.json");
-            for (let item of hiking.data) {
-                let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:hikingicon}).addTo(hikingLayer);
-                marker.bindPopup(`<h4>${item.name}</h4>
-                <img src="${item.photourl}" height="100px" width="200px"/>
-                <p>${item.location}<p>`) 
-            }
-            hikingLayer.addTo(map);
-        })
+        //     let hiking = await axios.get("dvo-geojson/hikingsites.json");
+        //     for (let item of hiking.data) {
+        //         let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:hikingicon}).addTo(hikingLayer);
+        //         marker.bindPopup(`<h4>${item.name}</h4>
+        //         <img src="${item.photourl}" height="100px" width="200px"/>
+        //         <p>${item.location}<p>`) 
+        //     }
+        //     hikingLayer.addTo(map);
+        // })
         
 
 
