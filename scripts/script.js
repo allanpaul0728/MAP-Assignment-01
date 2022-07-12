@@ -69,19 +69,19 @@ document.querySelector('#primarypage').addEventListener('click', function(){
 
 // })
 
-// document.querySelector('#clickHome').addEventListener('click', function() {
-//     let containerFluid = document.querySelectorAll('.page')
-//     for (let page of containerFluid) {
-//         page.classList.add('hidden');
-//         page.classList.remove('show');
+document.querySelector('#clickHome').addEventListener('click', function() {
+    let containerFluid = document.querySelectorAll('.page')
+    for (let page of containerFluid) {
+        page.classList.add('hidden');
+        page.classList.remove('show');
     
-//         }
+        }
     
-//         let page2 = document.querySelector('#homepage');
-//         page2.classList.add('show');
-//         page2.classList.remove('hidden');
+        let page2 = document.querySelector('#primarypage');
+        page2.classList.add('show');
+        page2.classList.remove('hidden');
 
-// })
+})
 
 
 // Main function
