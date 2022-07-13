@@ -1,6 +1,6 @@
 // SPA function 
 
-document.querySelector('#primarypage').addEventListener('click', function(){
+document.querySelector('#davaologo').addEventListener('click', function(){
     let allPages = document.querySelectorAll('.page');
     for (let page of allPages) {
     page.classList.add('hidden');
