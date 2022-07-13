@@ -57,18 +57,42 @@ body {
 
 .cardbtn {
     position: absolute;
+    background-color: #b5b165;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    opacity: 0;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgray;
-    opacity: 0;
 }
 
 .cardbtn:hover {
-    opacity: 50;
+    opacity: 100 !important;
+}
+
+
+
+
+@media screen and (min-width: 576px) {
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    
 }
