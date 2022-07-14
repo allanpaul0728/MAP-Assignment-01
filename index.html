@@ -146,12 +146,38 @@
     </div>
     
     <!-- Feedback Form -->
-    <!-- <div id="tertiarypage" class="page hidden">
-      <div id="feedback-form" class="container-fluid">
-
+    <div id="feedbackpage" class="page hidden">
+      <div id="feedback-form" class="container-fluid overlay hidden">
+        <h2 class="my-3">Feedback Form</h2>
+        <div class="mb-3">
+          <label for="emailAdd" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="feedback-emailadd" placeholder="type your email ad here">
+        </div>
+        <div class="mb-3">
+          <label for="personName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="feedback-name">
       </div>
-    </div> -->
-
+      <div class="mb-3">
+        <label for="locationName" class="form-label">Location</label>
+        <input type="text" class="form-control" id="feedback-location">
+      </div>
+      <div class="mb-3">
+        <label for="feedbackTextArea" class="form-label">Write down your feedback about the place</label>
+        <textarea class="form-control" id="feedbacksection" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="touristPhoto" class="form-label">Upload a photo</label>
+        <input class="form-control form-control-sm" id="photoUpload" type="photo">
+      </div>
+      <div id="display-feedbackForm">
+      </div>
+      <div>
+        <button id="feedbackClick" class="btn btn-custom">Submit</button>
+        <a href="#" class="btn btn-custom" id="return">Cancel</a>
+      </div>
+      </div>
+    </div>
+    <!-- End of feedback form -->
     </div>
     
 

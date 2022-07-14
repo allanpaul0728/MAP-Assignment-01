@@ -39,7 +39,6 @@ body {
 }
 
 #secondarypage {
-    position: relative;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
@@ -73,6 +72,21 @@ body {
     opacity: 100 !important;
 }
 
+#feedbackpage {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#feedbackpage>h2 {
+    text-align: center;
+}
+
+#display-feedbackForm {
+    margin: 3px;
+}
+
+
+
 
 
 
@@ -94,5 +108,5 @@ body {
 
 
 @media screen and (min-width: 1200px) {
-    
+
 }

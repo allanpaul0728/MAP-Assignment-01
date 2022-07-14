@@ -83,6 +83,38 @@ document.querySelector('#clickHome').addEventListener('click', function() {
 
 })
 
+document.querySelector('#feedback').addEventListener('click', function() {
+    let containerFluid = document.querySelectorAll('.page')
+    for (let page of containerFluid) {
+        page.classList.add('hidden');
+        page.classList.remove('show');
+    
+        }
+    
+        let page2 = document.querySelector('#feedbackpage');
+        page2.classList.add('show');
+        page2.classList.remove('hidden');
+
+})
+
+let displayFeedbackForm = document.querySelector('#feedbackClick') 
+
+let feedbackForm = document.querySelectorAll('#feedback');
+for (let form of feedbackForm) {
+    form.addEventListener('click', displayFeedbackPage)
+}
+
+function displayFeedbackPage() {
+    let feedbackForm = document.querySelector('#feedbackpage');
+    feedbackForm.classList.remove('hidden');
+    feedbackForm.classList.add('show');
+
+    let backtoMapPage = document.querySelector('#secondarypage');
+    backtoMapPage.addEventListener('click', function() {
+        feedbackForm.classListe.remove('show');
+        feedbackForm.classList.add('hidden');
+    })
+}
 
 // Main function
 
