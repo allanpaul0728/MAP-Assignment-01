@@ -69,7 +69,7 @@ body {
 }
 
 .cardbtn:hover {
-    opacity: 100 !important;
+    opacity: 0.8;
 }
 
 #feedbackpage {
@@ -83,6 +83,10 @@ body {
 
 #display-feedbackForm {
     margin: 3px;
+}
+
+.btn {
+    background-color:aliceblue;
 }
 
 
