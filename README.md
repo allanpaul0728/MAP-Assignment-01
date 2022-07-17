@@ -106,7 +106,7 @@ Non-functional:
     - Used for marking clustering for leaflet
 
 * [Bootstrap v5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-    - Used for additional styling, templates to apply in HTML for the web project
+    - Used for additional styling, templates to apply in HTML for the web project such as Offcanvas Sidebar
 
 * [Axios](https://cdnjs.com/libraries/axios)
     - HTTP Client for the browser

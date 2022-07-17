@@ -116,22 +116,22 @@ document.querySelector('#mainClickHome').addEventListener('click', function() {
 // let displayFeedbackForm = document.querySelector('#feedbackClick')
 // displayFeedbackForm.addEventListener('click', ) 
 
-let feedbackForm = document.querySelectorAll('#feedback');
-for (let form of feedbackForm) {
-    form.addEventListener('click', displayFeedbackPage)
-}
+// let feedbackForm = document.querySelectorAll('#feedback');
+// for (let form of feedbackForm) {
+//     form.addEventListener('click', displayFeedbackPage)
+// }
 
-function displayFeedbackPage() {
-    let feedbackForm = document.querySelector('#feedbackpage');
-    feedbackForm.classList.remove('hidden');
-    feedbackForm.classList.add('show');
+// function displayFeedbackPage() {
+//     let feedbackForm = document.querySelector('#feedbackpage');
+//     feedbackForm.classList.remove('hidden');
+//     feedbackForm.classList.add('show');
 
-    let backtoMapPage = document.querySelector('#return');
-    backtoMapPage.addEventListener('click', function() {
-        feedbackForm.classList.remove('show');
-        feedbackForm.classList.add('hidden');
-    })
-}
+//     let backtoMapPage = document.querySelector('#return');
+//     backtoMapPage.addEventListener('click', function() {
+//         feedbackForm.classList.remove('show');
+//         feedbackForm.classList.add('hidden');
+//     })
+// }
 
 // Main function
 
@@ -154,13 +154,12 @@ function main() {
         let searchResultLayer = L.markerClusterGroup();
         searchResultLayer.addTo(map);
 
-        // DOMContentLoaded is fired when the HTML file is fully
-        // loaded
+        
         window.addEventListener("DOMContentLoaded", function(){
             
             document.querySelector("#btnSearch").addEventListener('click', async function(){
 
-                // clear any existing search markers
+                // clear marker cluster results
                 searchResultLayer.clearLayers();
 
                 let query = document.querySelector("#txtQuery").value;
@@ -186,7 +185,7 @@ function main() {
             highlandLayer.clearLayers();
             hikingLayer.clearLayers();
 
-            let dvoBeaches = await axios.get("dvo-geojson/beaches.json");
+            let dvoBeaches = await axios.get("data/beaches.json");
             
             for (let item of dvoBeaches.data) {
                 console.log(item.coordinates);
@@ -209,7 +208,7 @@ function main() {
             highlandLayer.clearLayers();
             hikingLayer.clearLayers();
 
-            let dvoHighland = await axios.get("dvo-geojson/highlandresort.json");
+            let dvoHighland = await axios.get("data/highlandresort.json");
             for (let item of dvoHighland.data) {
                 let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:highlandicon}).addTo(highlandLayer);
                 marker.bindPopup(`<h4>${item.name}</h4>
@@ -226,7 +225,7 @@ function main() {
             highlandLayer.clearLayers();
             hikingLayer.clearLayers();
 
-            let dvoHiking = await axios.get("dvo-geojson/hikingsites.json");
+            let dvoHiking = await axios.get("data/hikingsites.json");
             for (let item of dvoHiking.data) {
                 let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:hikingicon}).addTo(hikingLayer);
                 marker.bindPopup(`<h4>${item.name}</h4>
@@ -243,7 +242,7 @@ function main() {
             highlandLayer.clearLayers();
             hikingLayer.clearLayers();
 
-            let dvoMountain = await axios.get("dvo-geojson/mountain.json");
+            let dvoMountain = await axios.get("data/mountain.json");
             for (let item of dvoMountain.data) {
                 let marker = L.marker([item.coordinates[0], item.coordinates[1]],{icon:mountainicon}).addTo(mountainLayer);
                 marker.bindPopup(`<h4>${item.name}</h4>
@@ -253,8 +252,6 @@ function main() {
             mountainLayer.addTo(map);
         })
         
-
-
         
         
     }

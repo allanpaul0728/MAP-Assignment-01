@@ -1,3 +1,5 @@
+// Map Setup
+
 function initMap() {
     
     let davaoCity = [7.051399, 125.59477];
@@ -52,6 +54,7 @@ function initMap() {
     return map;
 }
 
+// marker icons
 const mountainicon = L.icon({
     iconUrl: 'images/mountain-icon.png',
     iconSize: [45, 45],
