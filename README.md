@@ -78,6 +78,45 @@ Non-functional:
 
 ## Technology Used
 
+* Visual Studio Code / Gitpod
+    - Used platform for creating web application
+
+* HTML
+    - Used to create the web application body structure
+
+* CSS
+    - Used to design, beautify or style the web app
+
+* JavaScript
+    - Used to execute the functions of HTML elements
+
+* [GitHub](https://github.com/)
+    - Platform for the web project and used for the deployment of the application
+
+* [Leaflet](https://leafletjs.com/examples/quick-start/)
+    - Used to apply the map on the web project
+
+* [Leaflet Marking Cluster](https://github.com/Leaflet/Leaflet.markercluster)
+    - Used for marking clustering for leaflet
+
+* [Bootstrap v5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+    - Used for additional styling, templates to apply in HTML for the web project
+
+* [Axios](https://cdnjs.com/libraries/axios)
+    - HTTP Client for the browser
+
+* [Fontawesome](https://fontawesome.com/search)
+    - Used to apply icons for the web project
+
+* [Google Fonts](https://fonts.google.com/)
+    - Used to apply font style  for the web project
+
+* [Figma](https://www.figma.com/)
+    - Used to create wireframes of the web application
+
+* [Mapbox](https://www.mapbox.com/)
+    - Used to implement map layers 
+
 ## Testing
 
 
@@ -86,3 +125,14 @@ Non-functional:
 ## Live Link
 
 ## Credits & Acknowledgement
+
+* [Department of Tourism](http://www.experiencephilippines.org/tourism/destinations-tourism/davao-department-of-tourism/) & [Davao City Governemnt's Website](https://www.davaocity.gov.ph/) 
+    - As reference and source for the data in creating own JSON files.
+
+* [Google](https://www.google.com/)
+    - Another source on creating customized JSON data for its coordinates - latitude and longitude of the location. As well as the description and photo of the place were gathered with the help of this website
+
+* All applications/softwares mentioned on "Technologies Used" section and also its developers or creator of these wonderful applications.
+    - For making the life of aspiring web developers and designers easier
+
+* All TAs during consultation day - To Mr. Ace, Ms. Razia, Mr. Arif and Mr. Shun
