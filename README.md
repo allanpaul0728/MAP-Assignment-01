@@ -56,7 +56,11 @@ Click [here](wireframes/DVO-MAP-WIREFRAME.pdf) to check the PC/Laptop and Mobile
 
 #### Surface
 
+<img src='images/colorpalette.jpg' style='display:block'><br>
 
+* Colors: One of the featured color palette from colorhunt.co used to style the web application
+
+* Fonts: Roboto from Google Font used in this project
 
 ## Features
 
