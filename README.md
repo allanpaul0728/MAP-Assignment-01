@@ -117,8 +117,8 @@ Non-functional:
 * [Mapbox](https://www.mapbox.com/)
     - Used to implement map layers 
 
-## Testing
-
+* [Colorhunt](https://colorhunt.co/)
+    - Used for color palettes on the web app
 
 ## Deployment
 
