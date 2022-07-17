@@ -9,6 +9,8 @@
 
 Davao Life-Is-Here is a mobile or web application which will help the users to locate the tourist spots of the city such as beaches, highlands, hiking sites and mountain. This website will showcase of what the City has to offer - the pride of Davao - known for nice beaches and picturesque view highlands.
 
+NOTE: The JSON data/files implemented in this project are customized with references and sources mentioned below (Credit & Acknowledgement Section).
+
 ### Target Audience & Characteristics
 
 1. Both foreign and local traveller from different places interested in exploring the tourist attractions of the City.
