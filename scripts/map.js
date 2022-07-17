@@ -54,17 +54,17 @@ function initMap() {
 
 const mountainicon = L.icon({
     iconUrl: 'images/mountain-icon.png',
-    iconSize: [48, 48],
+    iconSize: [45, 45],
 })
 const davaobeachesicon = L.icon({
     iconUrl: 'images/beach-icon.png',
-    iconSize: [48, 48],
+    iconSize: [45, 45],
 })
 const highlandicon = L.icon({
     iconUrl: 'images/highland-icon.png',
-    iconSize: [48, 48],
+    iconSize: [45, 45],
 })
 const hikingicon = L.icon({
     iconUrl: 'images/hiking-icon.png',
-    iconSize: [48, 48],
+    iconSize: [45, 45],
 })
