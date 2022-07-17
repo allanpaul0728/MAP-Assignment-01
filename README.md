@@ -26,7 +26,7 @@ The objective of this application is to showcase the wonderful and beautiful amb
 With increasing number of tourists going in & out in the City of Davao, which is located in the biggest island of Philippines - Mindanao, where finding places to relax and unwind is quite difficult which may cause inconvenience to the travellers. With the use of this app, it will help the users to easily locate the particular spots without any hassle and stress. 
 
 ### Live Demo
-Click [here](https://allanpaul0728.github.io/MAP-Assignment-01/) to proceed for live demo.
+Click [here](https://allanpaul0728.github.io/MAP-DVO-LIFEISHERE/) to proceed for live demo.
 
 
 ## UI/UX
@@ -122,7 +122,14 @@ Non-functional:
 
 ## Deployment
 
+* [GitHub](https://github.com/) - as hosting platform of the web application
+
+* Deployment Procedure:
+    - On GitHub, go to your repositories, click your current made web project. Second, click on Settings under repository project's name. Third, on the left side, you can see the "Code and Automation" section, click the "Pages". Then, on "GitHub Pages", seclect the publishing source - select "main". Lastly, Click "Save".
+
 ## Live Link
+
+* Please click [here](https://allanpaul0728.github.io/MAP-DVO-LIFEISHERE/) for the live link
 
 ## Credits & Acknowledgement
 
